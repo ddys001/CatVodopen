@@ -8,14 +8,13 @@ import { load } from 'cheerio';
 
 import pkg from 'lodash';
 const { _ } = pkg;
-import * as Ali from '../../util/ali.js';
-import * as Quark from '../../util/quark.js';
+import { ua, init ,detail as _detail ,proxy ,play ,test } from '../../util/pan.js';
 import * as HLS from 'hls-parser';
 import { MAC_UA, formatPlayUrl } from '../../util/misc.js';
 
 var key = 'libvio';
 // var HOST = 'https://libvio.app'; // 地址发布页
-var host = '';
+var host = 'https://libvio.app';
 var siteKey = '';
 var siteType = 0;
 
